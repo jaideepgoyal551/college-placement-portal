@@ -19,7 +19,7 @@ export default function AuthLayout({ children, title, subtitle, illustration }) 
             transition={{ delay: 0.2, duration: 0.6 }}
             className="mb-10"
           >
-            <div className="w-16 h-16 mx-auto rounded-2xl bg-blue-600 flex items-center justify-center mb-6">
+            <div className="w-16 h-16 mx-auto rounded-2xl bg-blue-electric flex items-center justify-center mb-6">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
                 <path d="M16 6 L16 26 M10 12 L22 12 M10 16 L22 16 M10 20 L18 20" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
                 <path d="M22 20 L26 24 M26 20 L22 24" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
@@ -77,7 +77,7 @@ export default function AuthLayout({ children, title, subtitle, illustration }) 
         >
           <div className="lg:hidden flex justify-center mb-8">
             <a href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-blue-electric flex items-center justify-center">
                 <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
                   <path d="M16 6 L16 26 M10 12 L22 12 M10 16 L22 16 M10 20 L18 20" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
                   <path d="M22 20 L26 24 M26 20 L22 24" stroke="white" strokeWidth="2.5" strokeLinecap="round" />

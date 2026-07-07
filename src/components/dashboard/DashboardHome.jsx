@@ -73,7 +73,7 @@ export default function DashboardHome() {
                 transition={{ delay: i * 0.05 }}
                 className="flex items-start gap-3 p-3 rounded-xl hover:bg-white/[0.02] transition-colors"
               >
-                <div className={`w-8 h-8 rounded-lg ${i === 3 ? "bg-emerald-600" : "bg-gradient-to-br from-blue-electric/20 to-purple-brand/20"} flex items-center justify-center flex-shrink-0`}>
+                <div className={`w-8 h-8 rounded-lg ${i === 3 ? "bg-emerald-brand" : "bg-gradient-to-br from-blue-electric/20 to-purple-brand/20"} flex items-center justify-center flex-shrink-0`}>
                   <svg className={`w-4 h-4 ${i === 3 ? "text-white" : "text-blue-electric"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d={activityIcons[item.type]} />
                   </svg>

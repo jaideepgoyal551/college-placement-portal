@@ -28,7 +28,7 @@ export default function ScheduleInterviewsPage() {
           <p className="text-text-secondary mt-1 text-sm">Manage and schedule candidate interviews.</p>
         </div>
         <button onClick={() => setShowForm(true)}
-          className="px-5 py-2.5 rounded-xl bg-purple-700 text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
+          className="px-5 py-2.5 rounded-xl bg-blue-electric text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
           + Schedule Interview
         </button>
       </div>
@@ -88,7 +88,7 @@ export default function ScheduleInterviewsPage() {
           </div>
           <div className="flex gap-3">
             <button onClick={() => { toast("Interview scheduled!", "success"); setShowForm(false); }}
-              className="px-6 py-3 rounded-xl bg-purple-700 text-white font-semibold text-sm cursor-pointer">
+              className="px-6 py-3 rounded-xl bg-blue-electric text-white font-semibold text-sm cursor-pointer">
               Schedule
             </button>
             <button onClick={() => setShowForm(false)}

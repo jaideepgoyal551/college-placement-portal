@@ -38,7 +38,7 @@ export default function PublishResultsPage() {
           <p className="text-text-secondary mt-1 text-sm">Finalize and publish candidate results.</p>
         </div>
         <button onClick={() => setShowConfirm(true)}
-          className="px-5 py-2.5 rounded-xl bg-purple-700 text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
+          className="px-5 py-2.5 rounded-xl bg-blue-electric text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
           Publish Results
         </button>
       </div>
@@ -78,7 +78,7 @@ export default function PublishResultsPage() {
       <Modal open={showConfirm} onClose={() => setShowConfirm(false)} title="Confirm Publish" size="sm">
         <p className="text-sm text-text-secondary mb-6">Are you sure you want to publish the results? Selected candidates will be notified immediately via email.</p>
         <div className="flex gap-3">
-          <button onClick={publish} className="flex-1 py-3 rounded-xl bg-purple-700 text-white font-semibold text-sm cursor-pointer">Confirm Publish</button>
+          <button onClick={publish} className="flex-1 py-3 rounded-xl bg-blue-electric text-white font-semibold text-sm cursor-pointer">Confirm Publish</button>
           <button onClick={() => setShowConfirm(false)} className="flex-1 py-3 rounded-xl glass text-text-secondary font-semibold text-sm hover:text-text-primary transition-all cursor-pointer">Cancel</button>
         </div>
       </Modal>

@@ -33,7 +33,7 @@ export default function AnnouncementsPage() {
           <p className="text-text-secondary mt-1 text-sm">Manage placement announcements and notices.</p>
         </div>
         <button onClick={() => setShowModal(true)}
-          className="px-5 py-2.5 rounded-xl bg-emerald-600 text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
+          className="px-5 py-2.5 rounded-xl bg-emerald-brand text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
           + New Announcement
         </button>
       </div>
@@ -82,7 +82,7 @@ export default function AnnouncementsPage() {
             <span className="text-sm text-text-primary">Mark as urgent</span>
           </label>
           <div className="flex gap-3 pt-2">
-            <button onClick={submit} className="flex-1 py-3 rounded-xl bg-emerald-600 text-white font-semibold text-sm cursor-pointer">Publish</button>
+            <button onClick={submit} className="flex-1 py-3 rounded-xl bg-emerald-brand text-white font-semibold text-sm cursor-pointer">Publish</button>
             <button onClick={() => setShowModal(false)} className="flex-1 py-3 rounded-xl glass text-text-secondary font-semibold text-sm hover:text-text-primary transition-all cursor-pointer">Cancel</button>
           </div>
         </div>

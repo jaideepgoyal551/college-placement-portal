@@ -57,7 +57,7 @@ export default function KanbanBoard({ columns = [], onCardClick }) {
                 {item.score !== undefined && (
                   <div className="flex items-center gap-2 mt-2">
                     <div className="flex-1 h-1.5 bg-bg-tertiary rounded-full overflow-hidden">
-                      <div className="h-full bg-blue-600 rounded-full" style={{ width: `${item.score}%` }} />
+                      <div className="h-full bg-blue-electric rounded-full" style={{ width: `${item.score}%` }} />
                     </div>
                     <span className="text-[10px] font-medium text-text-tertiary">{item.score}%</span>
                   </div>

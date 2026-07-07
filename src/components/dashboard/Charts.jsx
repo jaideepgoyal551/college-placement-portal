@@ -206,7 +206,7 @@ export function SkillsGraph() {
           </div>
           <div className="h-2 bg-bg-tertiary rounded-full overflow-hidden">
             <motion.div
-              className="h-full rounded-full bg-blue-600"
+              className="h-full rounded-full bg-blue-electric"
               initial={{ width: "0%" }}
               animate={{ width: animated ? `${skill.value}%` : "0%" }}
               transition={{ delay: i * 0.15, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}

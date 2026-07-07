@@ -20,7 +20,7 @@ export default function ReportsPage() {
           <p className="text-text-secondary mt-1 text-sm">Generate and download placement reports.</p>
         </div>
         <button onClick={() => toast("Generating new report...", "info")}
-          className="px-5 py-2.5 rounded-xl bg-emerald-600 text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
+          className="px-5 py-2.5 rounded-xl bg-emerald-brand text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
           + Generate Report
         </button>
       </div>

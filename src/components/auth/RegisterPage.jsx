@@ -129,7 +129,7 @@ export default function RegisterPage() {
             w-full py-3.5 rounded-xl font-semibold text-base transition-all duration-300 cursor-pointer
             ${loading
               ? "bg-purple-brand/50 text-white/70 cursor-not-allowed"
-              : "bg-purple-700 text-white font-semibold shadow hover:shadow-lg"
+              : "bg-blue-electric text-white font-semibold shadow hover:shadow-lg"
             }
           `}
         >

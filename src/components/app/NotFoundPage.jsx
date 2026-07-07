@@ -51,7 +51,7 @@ export default function NotFoundPage() {
         >
           <Link
             to="/"
-            className="px-6 py-3 rounded-xl bg-purple-700 text-white font-semibold text-sm shadow hover:shadow-lg transition-all"
+            className="px-6 py-3 rounded-xl bg-blue-electric text-white font-semibold text-sm shadow hover:shadow-lg transition-all"
           >
             Go Home
           </Link>

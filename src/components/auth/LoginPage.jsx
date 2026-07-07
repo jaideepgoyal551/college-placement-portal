@@ -110,7 +110,7 @@ export default function LoginPage() {
             w-full py-3.5 rounded-xl font-semibold text-base transition-all duration-300 cursor-pointer
             ${loading
               ? "bg-blue-electric/50 text-white/70 cursor-not-allowed"
-              : "bg-blue-600 text-white font-semibold shadow hover:shadow-lg"
+              : "bg-blue-electric text-white font-semibold shadow hover:shadow-lg"
             }
           `}
         >

@@ -76,7 +76,7 @@ export default function SuccessStories() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
                     <div
-                      className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-sm font-bold text-white"
+                      className="w-12 h-12 rounded-full bg-blue-electric flex items-center justify-center text-sm font-bold text-white"
                     >
                       {stories[activeIndex].image}
                     </div>
@@ -100,7 +100,7 @@ export default function SuccessStories() {
                 onClick={() => setActiveIndex(i)}
                 className={`w-full text-left glass rounded-xl p-4 md:p-5 transition-all duration-300 ${
                   i === activeIndex
-                    ? "border-blue-600/30 bg-blue-600/5"
+                    ? "border-blue-electric/30 bg-blue-electric/5"
                     : "border-transparent opacity-60 hover:opacity-100"
                 }`}
                 whileHover={{ x: 4 }}
@@ -108,7 +108,7 @@ export default function SuccessStories() {
               >
                 <div className="flex items-center gap-4">
                   <div
-                    className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-xs font-bold text-white flex-shrink-0"
+                    className="w-10 h-10 rounded-full bg-blue-electric flex items-center justify-center text-xs font-bold text-white flex-shrink-0"
                   >
                     {story.image}
                   </div>

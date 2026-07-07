@@ -57,7 +57,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link to="/" className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center shadow-lg">
+              <div className="w-8 h-8 rounded-lg bg-blue-electric flex items-center justify-center shadow-lg">
                 <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
                   <path d="M16 6 L16 26 M10 12 L22 12 M10 16 L22 16 M10 20 L18 20" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
                   <path d="M22 20 L26 24 M26 20 L22 24" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
@@ -74,7 +74,7 @@ export default function Navbar() {
                   className="text-text-tertiary hover:text-text-primary text-sm font-medium transition-colors duration-200 relative group"
                 >
                   {link.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-px bg-blue-600 transition-all duration-300 group-hover:w-full" />
+                  <span className="absolute -bottom-1 left-0 w-0 h-px bg-blue-electric transition-all duration-300 group-hover:w-full" />
                 </a>
               ))}
             </nav>
@@ -99,7 +99,7 @@ export default function Navbar() {
                   <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                   </svg>
-                  <span className="absolute top-1 right-1 w-1.5 h-1.5 bg-blue-600 rounded-full ring-2 ring-bg-primary" />
+                  <span className="absolute top-1 right-1 w-1.5 h-1.5 bg-blue-electric rounded-full ring-2 ring-bg-primary" />
                 </button>
                 <AnimatePresence>
                   {notifOpen && (
@@ -119,8 +119,8 @@ export default function Navbar() {
                       </div>
                       <div className="p-2 space-y-1">
                         {notifications.map((n, i) => (
-                          <div key={i} className={`flex gap-3 p-3 rounded-lg transition-colors ${n.unread ? "bg-blue-600/10" : ""} cursor-pointer hover:bg-white/[0.03]`}>
-                            <div className={`w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0 ${n.unread ? "bg-blue-600" : "bg-transparent"}`} />
+                          <div key={i} className={`flex gap-3 p-3 rounded-lg transition-colors ${n.unread ? "bg-blue-electric/10" : ""} cursor-pointer hover:bg-white/[0.03]`}>
+                            <div className={`w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0 ${n.unread ? "bg-blue-electric" : "bg-transparent"}`} />
                             <div className="min-w-0">
                               <p className="text-xs text-text-primary">{n.text}</p>
                               <p className="text-[10px] text-text-tertiary mt-0.5">{n.time}</p>
@@ -145,7 +145,7 @@ export default function Navbar() {
                     <p className="text-xs font-medium text-text-primary">Priya Sharma</p>
                     <p className="text-[10px] text-text-tertiary">CS Senior</p>
                   </div>
-                  <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-xs font-bold text-white shadow-md">
+                  <div className="w-8 h-8 rounded-full bg-blue-electric flex items-center justify-center text-xs font-bold text-white shadow-md">
                     PS
                   </div>
                 </button>
@@ -228,7 +228,7 @@ export default function Navbar() {
                     Sign In
                   </Link>
                   <Link to="/auth/register" onClick={() => setMobileOpen(false)}
-                    className="block w-full text-center py-2.5 rounded-lg bg-blue-600 text-sm font-semibold text-white transition-all">
+                    className="block w-full text-center py-2.5 rounded-lg bg-blue-electric text-sm font-semibold text-white transition-all">
                     Get Started
                   </Link>
                 </div>

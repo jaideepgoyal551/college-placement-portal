@@ -98,7 +98,7 @@ export default function PostJobPage() {
         </div>
 
         <div className="flex gap-3">
-          <button type="submit" className="px-6 py-3 rounded-xl bg-purple-700 text-white font-semibold text-sm shadow hover:shadow-lg transition-all cursor-pointer">
+          <button type="submit" className="px-6 py-3 rounded-xl bg-blue-electric text-white font-semibold text-sm shadow hover:shadow-lg transition-all cursor-pointer">
             Post Job
           </button>
           <button type="button" className="px-6 py-3 rounded-xl glass text-text-secondary font-semibold text-sm hover:text-text-primary transition-all cursor-pointer">

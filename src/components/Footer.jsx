@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-12 mb-12">
           <div className="col-span-2 md:col-span-1">
             <a href="#" className="flex items-center gap-2 mb-4">
-              <div className="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center">
+              <div className="w-7 h-7 rounded-lg bg-blue-electric flex items-center justify-center">
                 <svg width="16" height="16" viewBox="0 0 32 32" fill="none">
                   <path d="M16 6 L16 26 M10 12 L22 12 M10 16 L22 16 M10 20 L18 20" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
                   <path d="M22 20 L26 24 M26 20 L22 24" stroke="white" strokeWidth="2.5" strokeLinecap="round" />

@@ -73,7 +73,7 @@ export default function PlacementStatistics() {
                   whileInView={{ width: `${b.pct}%` }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                  className="h-full rounded-full bg-blue-600"
+                  className="h-full rounded-full bg-blue-electric"
                 />
               </div>
             </div>

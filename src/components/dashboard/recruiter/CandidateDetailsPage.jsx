@@ -33,7 +33,7 @@ export default function CandidateDetailsPage() {
           <p className="text-text-secondary mt-1 text-sm">Review and manage candidate profile.</p>
         </div>
         <div className="flex gap-2">
-          <button onClick={() => toast("Candidate shortlisted!", "success")} className="px-5 py-2.5 rounded-xl bg-purple-700 text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
+          <button onClick={() => toast("Candidate shortlisted!", "success")} className="px-5 py-2.5 rounded-xl bg-blue-electric text-white text-sm font-semibold shadow hover:shadow-lg transition-all cursor-pointer">
             Shortlist
           </button>
           <button onClick={() => toast("Interview scheduled", "info")} className="px-5 py-2.5 rounded-xl glass text-text-secondary text-sm font-semibold hover:text-text-primary transition-all cursor-pointer">

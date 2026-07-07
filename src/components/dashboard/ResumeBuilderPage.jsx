@@ -56,7 +56,7 @@ export default function ResumeBuilderPage() {
               <p className="text-xs text-text-tertiary mb-2">ATS Score</p>
               <div className="flex items-center gap-3">
                 <div className="flex-1 h-2 bg-bg-tertiary rounded-full overflow-hidden">
-                  <div className="h-full w-[85%] bg-blue-600 rounded-full" />
+                  <div className="h-full w-[85%] bg-blue-electric rounded-full" />
                 </div>
                 <span className="text-sm font-bold text-emerald-brand">85%</span>
               </div>

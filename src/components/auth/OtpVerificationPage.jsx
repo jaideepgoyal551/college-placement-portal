@@ -131,7 +131,7 @@ export default function OtpVerificationPage() {
             w-full py-3.5 rounded-xl font-semibold text-base transition-all duration-300 cursor-pointer
             ${loading
               ? "bg-emerald-brand/50 text-white/70 cursor-not-allowed"
-              : "bg-emerald-600 text-white font-semibold shadow hover:shadow-lg"
+              : "bg-emerald-brand text-white font-semibold shadow hover:shadow-lg"
             }
           `}
         >

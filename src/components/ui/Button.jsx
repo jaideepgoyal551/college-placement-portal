@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const variants = {
   primary:
-    "bg-blue-600 text-white shadow hover:shadow-lg",
+    "bg-blue-electric text-white shadow hover:shadow-lg",
   secondary:
     "glass text-text-primary hover:bg-white/5 shadow",
   ghost:
